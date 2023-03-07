@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_padding">4dp</dimen>
+    <dimen name="margin_between_items">4dp</dimen>
+    <dimen name="margin_between_references">2dp</dimen>
+    <dimen name="divider_thickness">2dp</dimen>
+</resources>

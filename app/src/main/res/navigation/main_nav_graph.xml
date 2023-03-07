@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.nuzhnov.knowledgemap.presentation.ui.MapFragment"
+        tools:layout="@layout/map_fragment">
+
+        <action
+            android:id="@+id/navigateToDetails"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.nuzhnov.knowledgemap.presentation.ui.DetailsFragment"
+        tools:layout="@layout/details_fragment">
+
+        <argument
+            android:name="knowledgeName"
+            app:argType="string" />
+    </fragment>
+</navigation>

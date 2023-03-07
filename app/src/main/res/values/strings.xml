@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KnowledgeMap</string>
+
+    <string name="map_fragment_title">Дорожная карта Android-разработчика</string>
+
+    <string name="description_title">Описание</string>
+    <string name="materials_for_study">Материалы для изучения</string>
+</resources>
